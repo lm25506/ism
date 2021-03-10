@@ -1,7 +1,7 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
   <head>
-    <title> Lucy's Baking Corner</title>
+    <title> Data Science and APIs</title>
     <link rel="stylesheet" href="styles.css"
     <script src="main.js"></script>
   </head>
@@ -24,9 +24,10 @@ body {font-family: Arial;}
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 14px 68.56px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 20px;
+  font-family: Arial;
 }
 
 /* Change background color of buttons on hover */
@@ -50,37 +51,34 @@ body {font-family: Arial;}
 </head>
 <body>
 
-<h2><strong>Lucy's Baking Corner</strong></h2>
-<p>  <h4>  <button onclick="document.getElementById('time').innerHTML=Date()">Click to refresh the time! </button> <h4></p>
-    <p id="time"></p>
-    <p><img src="https://media0.giphy.com/media/26xBKmPkJLYvGV9yE/giphy.gif" alt="Mix"</p>
+<h2><strong>Data Science and APIs</strong></h2>
+
+<marquee width="100%" direction="left" height="20px">Independent Study Mentorship Spring 2021</marquee>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Cookies')">Cookies</button>
-  <button class="tablinks" onclick="openCity(event, 'Cakes')">Cakes</button>
-  <button class="tablinks" onclick="openCity(event, 'Favorite Baking Equiptment')">Favorite Baking Equiptment</button>
-  <button class="tablinks" onclick="openCity(event, 'Recipe of the Week')">Recipe of the Week</button>
-  <button class="tablinks" onclick="openCity(event, 'About Me')">About Me</button>
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Current Schedule')">Current Schedule</button>
+  <button class="tablinks" onclick="openCity(event, 'Request a Schedule Change')">Request a Schedule Change</button>
+  <button class="tablinks" onclick="openCity(event, 'API Data Data')">API Data</button>
+  <button class="tablinks" onclick="openCity(event, 'How it Works')">How it Works</button>
 </div>
 
-<div id="Cookies" class="tabcontent">
-  <h1> Cookies: </h1>
-  <p><img src="https://media0.giphy.com/media/hpfInSxkkLdpS/giphy.gif" alt="Cookie"</p>
-  <p> <a href="https://www.biggerbolderbaking.com/easy-sugar-cookie-recipe/" target="_blank"> Sugar Cookies </a> </p>
-  <p> <a href="https://www.biggerbolderbaking.com/best-ever-chocolate-chip-cookies/" target="_blank"> Chocolate Chip Cookies </a> </p>
-  <p> <a href="https://www.biggerbolderbaking.com/peanut-butter-cookies-best-ever/" target="_blank"> Peanut Butter Cookies </a> </p>
+<div id="Home" class="tabcontent">
+  <h1> Home: </h1>
+  <p><h5>Welcome to my ISM Final Product for the spring semester of 2021. This semester, I am coding a web API Data along with a website that will display
+  a schedule lineup for a hypothetical lead support person for a tech company. </p>
 </div>
 
-<div id="Cakes" class="tabcontent">
-  <h3>Cakes:</h3>
+<div id="Current Schedule" class="tabcontent">
+  <h3>Current Schedule:</h3>
       <p><img src="https://media.giphy.com/media/He4wudo59enf2/giphy.gif" alt="Cake"</p>
       <p> <a href="https://www.biggerbolderbaking.com/coffee-cake-recipe/" target="_blank"> Classic Coffee Cake </a> </p>
       <p> <a href="https://www.biggerbolderbaking.com/funfetti-birthday-cake/" target="_blank"> Funfetti Cake </a> </p>
       <p> <a href="https://sallysbakingaddiction.com/red-velvet-layer-cake-with-cream-cheese-frosting/" target="_blank"> Red Velvet Cake </a> </p>
 </div>
 
-<div id="Favorite Baking Equiptment" class="tabcontent">
-  <h3>Favorite Baking Equiptment</h3>
+<div id="Request a Schedule Change" class="tabcontent">
+  <h3>Request a Schedule Change</h3>
     <p><img src="https://66.media.tumblr.com/d77352921ecebc03abe4700799ac94ae/tumblr_nmd0i4jzNS1qa6ftro3_250.gif" alt="frost"</p>
     <p><a href="https://www.amazon.com/Norpro-Balloon-Whisk-Stainless-Steel/dp/B00005EBH9" target="_blank"> Whisk </a> </p>
     <p><a href="https://www.homedepot.com/p/Sencor-4-75-Qt-8-Speed-Pastel-Blue-Stand-Mixer-STM42BL-NAB1/206939259?cm_mmc=Shopping%7CG%7CBase%7CHDH%7C29-28_SMALL+ELECTRICS%7CNA%7CPLA%7CMixers-Slicers%7c71700000048833954%7c58700004850322382%7c92700041732069754&gclid=CjwKCAjw04vpBRB3EiwA0IieahY8COtWZ1SrJX0vQCzY3rHhFLuRdym0s2sy8m_-PMjaRgcI7vL2LxoC2NsQAvD_BwE&gclsrc=aw.ds" target="_blank"> Stand Mixer </a> </p>
@@ -89,8 +87,8 @@ body {font-family: Arial;}
 
 </div>
 
-<div id="Recipe of the Week" class="tabcontent">
-  <h3>Recipe of the Week</h3>
+<div id="API Data" class="tabcontent">
+  <h3>API Data</h3>
   <p> <img src="https://www.sweetandsavorybyshinee.com/wp-content/uploads/2016/12/Chocolate-Macarons-2.jpg" target="_blank"> <p>
   <p><h1>Chocolate Macarons</h1></p>
   <p>Ingredients:</p>
@@ -126,8 +124,8 @@ body {font-family: Arial;}
 
 </div>
 
-<div id="About Me" class="tabcontent">
-  <h3>About Me</h3>
+<div id="How it Works" class="tabcontent">
+  <h3>How it Works</h3>
     <p><img src="picture.jpg" alt="picture"</p>
   Hi My name is Lucy Ma! I was born in TN, but currently reside in loud and proud Houston, TX.
   I started baking when I was around 8 years old and have loved it ever since.
