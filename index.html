@@ -1,0 +1,524 @@
+<h3><!DOCTYPE html>
+  <html>
+  <head>
+    <br>
+    <title> ISM Final Product
+
+
+      <!-- <script src="jquery-1.10.2.min.js"></script> -->
+       <link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet'type='text/css'>
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <script type="text/javascript" src="script.js"></script>
+       <!-- <script src="precious.zip"></script> -->
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <style>
+       /* code for the slideshow on the home page */
+     .mySlides {display:none;}
+     img {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+     }
+     * {
+       box-sizing: border-box;
+     }
+
+     /* Create two unequal columns that floats next to each other */
+     .column {
+       float: left;
+       padding: 10px;
+       height: 300px; /* Should be removed. Only for demonstration */
+     }
+
+     .left {
+       width: 25%;
+     }
+
+     .right {
+       width: 75%;
+     }
+
+     /* Clear floats after the columns */
+     .row:after {
+       content: "";
+       display: table;
+       clear: both;
+     }
+     </style>
+     </head>
+     <body onload="openCity(event, 'Home')">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+     <style>
+     body {font-family: Arial;}
+
+     /* Style the tab */
+     .tab {
+     overflow: hidden;
+     border: 1px solid #ccc;
+     background-color: white;
+     }
+
+     /* Style the buttons inside the tab */
+     .tab button {
+     background-color: inherit;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 14px 16px;
+     transition: 0.3s;
+     font-size: 17px;
+     }
+
+     /* Change background color of buttons on hover */
+     .tab button:hover {
+     background-color: #ddd;
+     }
+
+     /* Create an active/current tablink class */
+     .tab button.active {
+     background-color: #ccc;
+     }
+
+     /* Style the tab content */
+     .tabcontent {
+     display: none;
+     padding: 6px 12px;
+     border: 1px solid #ccc;
+     border-top: none;
+     }
+     /*  parallax scroll functions for the tabs */
+     .parallax {
+       /* The image used */
+       background-image: url("http://www.salishworld.com/wp-content/uploads/2017/11/Foreign-Language.jpg");
+
+       /* Set a specific height */
+       min-height: 200px;
+
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     .parallax2 {
+       /* The image used */
+       background-image: url("https://i.dlpng.com/static/png/1599122_preview_preview.png");
+
+       /* Set a specific height */
+       min-height: 200px;
+
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     .parallax3 {
+       /* The image used */
+       background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/42/97/61585253c47b798.jpg");
+
+       /* Set a specific height */
+       min-height: 200px;
+
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     .parallax4 {
+       /* The image used */
+       background-image: url("https://image.freepik.com/free-vector/silhouettes-family-walking_1048-3313.jpg");
+
+       /* Set a specific height */
+       min-height: 200px;
+
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     .parallax5 {
+       /* The image used */
+       background-image: url("https://printawallpaper.com/upload/designs/immigration_stamps_detail.jpg");
+
+       /* Set a specific height */
+       min-height: 200px;
+
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     .parallax6 {
+       /* The image used */
+       background-image: url("amer.jpg");
+
+       /* Set a specific height */
+       min-height: 200px;
+
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     .parallax7 {
+       /* The image used */
+       background-image: url("https://cdn.shopify.com/s/files/1/0153/0623/products/3D_Steps_Peel_Stick_Wallpaper_in_Multi_by_RoomMates_for_York_Wallcoverings_051bd2b9-2aeb-4136-bf83-d94f1c64591b_large.jpg?v=1552932993");
+
+       /* Set a specific height */
+       min-height: 200px;
+
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     .parallax8 {
+       /* The image used */
+       background-image: url("https://consumerfinancialserviceslawmonitor.lexblogplatform.com/wp-content/uploads/sites/501/2014/05/Gavel-550x320.jpg");
+
+       /* Set a specific height */
+       min-height: 200px;
+
+       /* Create the parallax scrolling effect */
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+     }
+     html {
+       box-sizing: border-box;
+     }
+
+     *, *:before, *:after {
+       box-sizing: inherit;
+     }
+
+     .column {
+       float: left;
+       width: 300px;
+       margin-bottom: 16px;
+       padding: 0 8px;
+     }
+
+     .columns {
+       float: right;
+       width: 300px;
+       margin-bottom: 16px;
+       padding: 0 8px;
+     }
+
+     @media screen and (max-width: 300px) {
+       .column {
+         width: 100%;
+         display: block;
+       }
+     }
+
+     .card {
+       box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+     }
+
+     .container {
+       padding: 0 16px;
+     }
+
+     .container::after, .row::after {
+       content: "";
+       clear: both;
+       display: table;
+     }
+
+     .title {
+       color: grey;
+     }
+     </style>
+     </head>
+     <body>
+
+     <b>Reading Between the Lines:</b><h2> <p>The Truth About Immigration</p></h2>
+
+     <marquee behavior="scroll" direction="left"><b1>Girls Who Code Summer Immersion Program 2019<i>ahsjdfhkjahsdfkj</i>Girls Who Code Summer Immersion Program 2019<i>ahsjdfhkjahsdfkj</i>Girls Who Code Summer Immersion Program 2019</b1></marquee>
+     <button onclick="topFunction()" id="myBtnn" title="Go to top">Top</button>
+
+     <div class="tab">
+     <h1><button class="tablinks" onclick="openCity(event, 'Home')">Home</button></h>
+     <h1><button class="tablinks" onclick="openCity(event, 'General Information')">General Information</button></h>
+     <h1><button class="tablinks" onclick="openCity(event, 'Scheduling')">Scheduling</button></h>
+     <h1><button class="tablinks" onclick="openCity(event, 'API')">API</button></h>
+     <h1><button class="tablinks" onclick="openCity(event, 'How it Works')">How it Works</button></h>
+
+     </div>
+
+
+     <div id="Home" class="tabcontent">
+
+       <div class="row">
+         <div class="column"
+           <div style="height:400px;width:500px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+           Independent Study Mentorship
+           <br>
+           <p> ...... </p>
+           <br>
+           Independent Study Mentorship
+         </div>
+
+       <div class="column"
+         <img class="mySlides" src="https://owips.com/sites/default/files/styles/225x120/public/clipart/migration-clipart/275657/migration-clipart-canadian-immigration-275657-8286530.png?itok=EU657QTC">
+         <img class="mySlides" src="https://carrillodavalos.com/wp-content/uploads/2017/03/Immigration-Bird-e1493662338222.png">
+         <img class="mySlides" src="https://cdn.pixabay.com/photo/2018/01/10/19/39/cloud-3074621_960_720.png">
+         <img class="mySlides" src="http://www.prismoverseas.com/wp-content/uploads/2019/05/kisspng-passport-stamp-travel-visa-immigration-xanax-5b4bcbfbae3fe4.png">
+         <img class="mySlides" src="http://hddfhm.com/images/migration-clipart-23.png">
+         <img class="mySlides" src="https://s3.amazonaws.com/user-media.venngage.com/775756-e990177efd5e90b4c21ba399ee643fa5.PNG">
+         <img class="mySlides" src="https://b.kisscc0.com/20180816/yze/kisscc0-immigration-to-the-united-states-south-dakota-us-p-melting-pot-with-stroke-5b75263caf0703.2724536615344041567169.png">
+
+       </div>
+
+       </div>
+
+
+
+
+     </div>
+
+
+
+       <script>
+       var myIndex = 0;
+       carousel();
+
+       function carousel() {
+         var i;
+         var x = document.getElementsByClassName("mySlides");
+         for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+         }
+         myIndex++;
+         if (myIndex > x.length) {myIndex = 1}
+         x[myIndex-1].style.display = "block";
+         setTimeout(carousel, 1500); // Change image every 1.5 seconds
+       }
+       </script>
+     </div>
+
+
+
+     <div id="General Information" class="tabcontent">
+
+         <div class="parallax5"></div>
+
+         <div style="height:150px;background-color:#a9b7c0;font-size:20px; color:white">
+           <br>
+         <p>The United States has long been considered a nation of immigrants. Attitudes toward new immigrants by those who came before have vacillated between welcoming and exclusionary over the years.</p>
+         </div>
+
+         <div class="parallax5"></div>
+
+         <div style="height:200px;background-color:#a9b7c0;font-size:20px; color:white">
+           <br>
+         <p>Thousands of years before Europeans began crossing the vast Atlantic by ship and settling en masse, the first immigrants arrived in North America and the land that would later become the United States. They were Native American ancestors who crossed a narrow spit of land connecting Asia to North America some 20,000 years ago, during the last Ice Age</p>
+         </div>
+
+         <div class="parallax5"></div>
+
+         <div style="height:250px;background-color:#a9b7c0;font-size:20px; color:white">
+           <br>
+         <p>By the early 1600s, communities of European immigrants dotted the Eastern seaboard, including the Spanish in Florida, the British in New England and Virginia, the Dutch in New York, and the Swedes in Delaware. Some, including the Pilgrims and Puritans, came for religious freedom. Many sought greater economic opportunities. Still others, including hundreds of thousands of enslaved Africans, arrived in America against their will.</p>
+         </div>
+
+         <div class="parallax5"></div>
+
+         <div style="height:450px;background-color:#a9b7c0;font-size:20px; color:white">
+           <br>
+        <img style="height:300px;width:590px;" src="https://www.migrationpolicy.org/sites/default/files/source_images/FRS-SPT-2019_Figure_1_UPDATED.png" />
+
+         <div class="parallax5"></div>
+
+       </div>
+       </div>
+     </div>
+
+
+     <div id="Scheduling" class="tabcontent">
+
+       <div class="parallax2"></div>
+
+       <div style="height:200px;background-color:#bfb5b2;font-size:20px; color:white">
+         <br>
+       <p>The sending countries with the largest numerical increases in immigrants in the United States between 2010 and 2017 were India (up 830,215); China (up 677,312); the Dominican Republic (up 283,381); the Philippines (up 230,492); Cuba (up 207,124); El Salvador (up 187,783); Venezuela (up 167,105); Colombia (up 146,477); Honduras (up 132,781); Guatemala (up 128,018); Nigeria (up 125,670); Brazil (up 111,471); Vietnam (up 102,026); Bangladesh (up 95,005); Haiti (up 92,603); and Pakistan (up 92,395).</p>
+       </div>
+
+       <div class="parallax2"></div>
+
+       <div style="height:200px;background-color:#bfb5b2;font-size:20px; color:white">
+         <br>
+       <p>The states with the largest numerical increases since 2010 were Florida (up 721,298); Texas (up 712,109); California (up 502,985); New York (up 242,769); New Jersey (up 210,481); Washington (up 173,891); Massachusetts (up 172,908); Pennsylvania (up 154,701); Virginia (up 151,251); Maryland (up 124,241); Georgia (123,009); Michigan (up 116,059); North Carolina (up 110,279); and Minnesota (up 107,760).</p>
+       </div>
+
+       <div class="parallax2"></div>
+
+       <div style="height:200px;background-color:#bfb5b2;font-size:20px; color:white">
+         <br>
+       <p>The states with the largest percentage increases since 2010 were North Dakota (up 87 percent); Delaware (up 37 percent); West Virginia (up 33 percent); South Dakota (up 32 percent); Wyoming (up 30 percent); Minnesota (up 28 percent); Nebraska (up 28 percent); Pennsylvania (up 21 percent); Utah (up 21 percent); and Tennessee, Kentucky, Michigan, Florida, Washington, and Iowa (all up 20 percent).</p>
+       </div>
+
+       <div class="parallax2"></div>
+
+       <div style="height:150px;background-color:#bfb5b2;font-size:20px; color:white">
+       <br>
+       <p>Immigrants usually live in states closer to the border/country of where they came from, like Texas, Georgia, Louisiana, ALabama, Florida, California, etc.</p>
+       </div>
+
+       <div class="parallax2"></div>
+
+       <div style="height:450px;background-color:#bfb5b2;font-size:20px; color:white">
+         <br>
+         <img src="piechart.jpg" alt="piechart" class="center"></img>
+       </div>
+
+       <div class="parallax2"></div>
+
+     </div>
+     </div>
+
+
+     <div id="API" class="tabcontent">
+       <div class="parallax"></div>
+
+       <div style="height:200px;background-color:#c7bbc9;font-size:20px; color:white">
+       <p>High School Graduate or less:</p>
+       <p> U.S. Born: 37.3% </p>
+       <p>U.S Immigrants: 51.3% </p>
+       </div>
+
+       <div class="parallax"></div>
+
+       <div style="height:200px;background-color:#c7bbc9;font-size:20px; color:white">
+       <p>Two year degree/some College:</p>
+       <p> U.S. Born: 31.1%</p>
+       <p>U.S. Immigrants:18.7%</p>
+       </div>
+       <div class="parallax"></div>
+
+       <div style="height:200px;background-color:#c7bbc9;font-size:20px; color:white">
+       <p> Bachelor's degree or higher:</p>
+       <p>U.S. Born: 31.6%</p>
+       <p> U.S. Immigrants: 30.0%</p>
+       </div>
+
+       <div class="parallax"></div>
+
+       <div style="height:500px;background-color:#c7bbc9;font-size:20px; color:white">
+       <p> There is a continuous increase in the number
+         of US Immigrants who have a Bachelor's degree or higher since 1960 with
+         a percentage of 2.5 to 17.2% in 2016. </p>
+         <img src="graph.jpg" alt="Graph" class="center " width="400" height="400"></img>
+
+       </div>
+
+       <div class="parallax"></div>
+
+
+         <div style="height:400px;background-color:#c7bbc9;font-size:20px; color:white">
+         <p>The Diversity in Language</p>
+                 <br>
+               </p>
+               <p>In the 18th and
+                  19th centuries conquest played a big role with
+                   adding different cultures to the USA, however
+                   language diversity has
+                   been driven primarily by immigration to the U.S.
+                   Nevertheless,this country
+                   has also been a place in which immigrant languages die out to
+                   be replaced by the country's main language: English.</p>
+               <br>
+               <p>In the second languages spoken in the
+                 US, Spanish takes up 81%.Following Spanish is Chinese, with 6%. French is next with 5% , Vietnamese with
+                 3%, and Korean with 2%.</p>
+         </div>
+
+         <div class="parallax"></div>
+
+         <div style="height:500px;background-color:#c7bbc9;font-size:20px">
+             <br>
+                 <img src="num.png" alt="chartnum" class="center " width="100px" height="500px"></img>
+
+               </div>
+
+               <div class="parallax"></div>
+
+
+
+      </div>
+
+
+     <div id="How it Works" class="tabcontent">
+       <button onclick="topFunction()" id="myBtnn" title="Go to top">Top</button>
+
+       <div class="parallax3"></div>
+
+       <div style="height:100px;background-color:#83adb5;font-size:20px; color:white">
+         <br>
+         <p>In 2018, there were 28.2 million foreign-born persons in the U.S labor force, compromising 17.4 percent of the total. ​</p>
+       </div>
+
+       <div class="parallax3"></div>
+
+       <div style="height:150px;background-color:#83adb5;font-size:20px; color:white">
+         <br>
+         <p>Foreign-born men were more likely to participate in the labor force than native-born men (77.9% versus 67.3%), while foreign-born women were less likely to participate than native-born women (54.3% versus 57.6%).</p>
+       </div>
+
+       <div class="parallax3"></div>
+
+       <div style="height:200px;background-color:#83adb5;font-size:20px; color:white">
+         <br>
+         <p>The median usual weekly earnings of foreign-born full-time wage and salary workers were $758 in 2018, compared with $910 for their native-born counterparts.(Differences in earnings reflect a variety of factors, including variations in the distributions of foreign-born and native-born workers by educational attainment, occupation, industry, and geographic region.) Foreign-born workers were more likely than native-born workersto be employed in service occupations and less likely to be employed in management, professional, and related occupations.</p>
+       </div>
+
+       <div class="parallax3"></div>
+
+       <div style="height:500px;background-color:#83adb5;font-size:20px; color:white">
+         <br>
+         <img src="laborForce.png" alt="Immigration Chart" class="center"></img>
+       </div>
+
+       <div class="parallax3"></div>
+
+
+       </div>
+
+
+
+     <script>
+     function openCity(evt, cityName) {
+     var i, tabcontent, tablinks;
+     tabcontent = document.getElementsByClassName("tabcontent");
+     for (i = 0; i < tabcontent.length; i++) {
+       tabcontent[i].style.display = "none";
+     }
+     tablinks = document.getElementsByClassName("tablinks");
+     for (i = 0; i < tablinks.length; i++) {
+       tablinks[i].className = tablinks[i].className.replace(" active", "");
+     }
+     document.getElementById(cityName).style.display = "block";
+     evt.currentTarget.className += " active";
+     }
+     </script>
+
+
+     <script>
+     function myFunction6() {
+     document.getElementById("asdf").style.visibility = "hidden";
+       }
+     </script>
+
+
+     </body>
+     </html>
